@@ -11,6 +11,7 @@ import Projects from "../components/Projects"
 import SlidingImages from "../components/SlidingImages"
 import ZoomParallax from "../components/ZoomParallax"
 import Contact from "../components/Contact"
+import TextClip from "../components/TextClip"
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true)
@@ -41,6 +42,8 @@ export default function Home() {
       <Description />
 
       <Projects />
+
+      <TextClip />
 
       <SlidingImages />
 
