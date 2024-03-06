@@ -2,6 +2,14 @@
 
 import { useEffect } from "react"
 
+import { AnimatePresence } from "framer-motion"
+import Preloader from "../components/Preloader"
+import Landing from "../components/Landing"
+import Description from "../components/Description"
+import Projects from "../components/Projects"
+import SlidingImages from "../components/SlidingImages"
+import Contact from "../components/Contact"
+
 export default function Home() {
   useEffect(() => {
     ;(async () => {
@@ -12,10 +20,8 @@ export default function Home() {
 
   return (
     <main>
-      {/* <AnimatePresence mode='wait'>
-
+      <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
-
       </AnimatePresence>
 
       <Landing />
@@ -26,7 +32,7 @@ export default function Home() {
 
       <SlidingImages />
 
-      <Contact /> */}
+      <Contact />
     </main>
   )
 }
