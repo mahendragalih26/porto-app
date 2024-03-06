@@ -1,11 +1,12 @@
+"use client"
 import styles from './style.module.scss';
-import Picture1 from 'next/images/parallax/1.jpeg';
-import Picture2 from 'next/images/parallax/2.jpeg';
-import Picture3 from 'next/images/parallax/3.jpg';
-import Picture4 from 'next/images/parallax/4.jpg'
-import Picture5 from 'next/images/parallax/5.jpg'
-import Picture6 from 'next/images/parallax/6.jpg'
-import Picture7 from 'next/images/parallax/7.jpeg'
+import Picture1 from '../../../public/images/parallax/1.jpeg';
+import Picture2 from '../../../public/images/parallax/2.jpeg';
+import Picture3 from '../../../public/images/parallax/3.jpg';
+import Picture4 from '../../../public/images/parallax/4.jpg'
+import Picture5 from '../../../public/images/parallax/5.jpg'
+import Picture6 from '../../../public/images/parallax/6.jpg'
+import Picture7 from '../../../public/images/parallax/7.jpeg'
 import Image from 'next/image';
 import { useScroll, useTransform, motion} from 'framer-motion';
 import { useRef } from 'react';

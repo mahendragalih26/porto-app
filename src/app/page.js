@@ -9,6 +9,7 @@ import Landing from "../components/Landing"
 import Description from "../components/Description"
 import Projects from "../components/Projects"
 import SlidingImages from "../components/SlidingImages"
+import ZoomParallax from "../components/ZoomParallax"
 import Contact from "../components/Contact"
 
 export default function Home() {
@@ -42,6 +43,8 @@ export default function Home() {
       <Projects />
 
       <SlidingImages />
+
+      <ZoomParallax />
 
       <Contact />
     </main>
