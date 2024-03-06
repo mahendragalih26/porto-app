@@ -14,8 +14,7 @@ import Contact from "../components/Contact"
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true)
 
-  useEffect(() => {
-    ;(async () => {
+  useEffect(() => {(async () => {
       const LocomotiveScroll = (await import("locomotive-scroll")).default
       const locomotiveScroll = new LocomotiveScroll()
 
@@ -24,6 +23,8 @@ export default function Home() {
         document.body.style.cursor = "default"
         window.scrollTo(0, 0)
       }, 2000)
+
+      
     })()
   }, [])
 
